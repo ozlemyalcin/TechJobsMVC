@@ -10,44 +10,44 @@
     {
         @foreach (Job job in ViewBag.Jobs)
         {
-<table class="job-listing">
+        <table class="job-listing">
     <tr>
 
-        <td>
+        <th>
             Id
-        </td>
+        </th>
         <td>@job.Id</td>
     </tr>
     <tr>
 
-        <td>
+        <th>
             Name
-        </td>
+        </th>
         <td>@job.Name</td>
     </tr>
     <tr>
-        <td>
+        <th>
             Employer
-        </td>
+        </th>
         <td>@job.Employer</td>
     </tr>
     <tr>
-        <td>
+        <th>
             Location
-        </td>
+        </th>
         <td>@job.Location</td>
     </tr>
     <tr>
-        <td>
+        <th>
             Position
-        </td>
+        </th>
         <td>@job.PositionType</td>
     </tr>
 
     <tr>
-        <td>
+        <th>
             Skill
-        </td>
+        </th>
         <td>@job.CoreCompetency</td>
     </tr><br>
 </table>
